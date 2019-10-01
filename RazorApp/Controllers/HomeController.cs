@@ -13,5 +13,9 @@ namespace Razor.Controllers {
             };
             return View(array);
         }
+
+        public string Test() {
+            return "Hi Serg";
+        }
     }
 }
